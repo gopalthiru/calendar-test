@@ -6,7 +6,7 @@ import {Color} from "../models/Color";
 
 class CalendarPageObject extends BasePageObject {
     // Page elements
-    protected _pageId = $('[alt="create_event"]');
+    protected _pageId = $('h1=Catendar');
     private mothYear = (moth: string) => {
         return $(`h2=${moth}`)
     }
